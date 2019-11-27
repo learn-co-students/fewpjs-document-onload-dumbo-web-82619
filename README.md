@@ -59,9 +59,11 @@ console.log(
 
 Code your solution in `index.js`. First, set up a `DOMContentLoaded`
 event in order to detect when the HTML page has loaded, and the document is
-ready to be manipulated. Use the event's callback function to target the
-paragraph element with `id="text"` and replace the text with "This is really
-cool!"
+ready to be manipulated.
+
+Use the event's callback function to target the paragraph element
+with `id="text"` and replace the text
+with "This is really cool!"
 
 _Note:_ Using the [`innerText`][innertext] property to modify DOM element
 content will not work for this lab. Use [`textContent`][textcontent] or [`innerHTML`][innerhtml] instead.
@@ -120,5 +122,3 @@ completely loads.
 [innertext]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText
 [textcontent]: https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
 [innerhtml]: https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
-
-
